@@ -1,2 +1,2 @@
 # Mash-Machine-v2
-Gamfication of Mash Machine
+Gamification of Mash Machine
