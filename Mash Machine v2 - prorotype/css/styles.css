@@ -1,131 +1,37 @@
-.icon {
-  max-width: 150px;
-  margin: 0 auto;
-  display: block;
+
+
+@keyframes my-animation {        
+  from {
+    opacity : 0;
+    top : -500px;
+  }
+  to {
+    opacity : 1;
+    top : 0;
+  }      
 }
 
-.call {
-  max-width: 250px;
-  display: inline-block;
-  opacity: 0.5;
-  background-color: #669900;
-  position: fixed;
-  display: block;
-  
+.run-animation {
+  position: relative;
+  animation: my-animation 4s ease;
 }
 
-.header {
-padding-right: 10;
- color: #ffffff;
- text-align: left;
- 
-}
-
-.services section {
-  text-align: center;
-}
-
-.bgimage {
-  background-image: url('../images/building.jpg');
-  background-position: center center;
-  background-size: cover;
+.default-box {
+	margin-top: 300px;
+  margin-left:100px;
   height: 200px;
-}
-body {
-    background-color: lightblue;
+  width: 200px;
 }
 
-.block1 {
-    width: 200px;
-    height: 200px;
-    background-color: light blue;
-    position: relative;
-    
-    animation-name: example;
-    animation-duration: 10s;
-    animation-iteration-count: 4;
-    animation-direction: normal; 
-	animation-delay: 1s;
-	
+#box {
+  background-color: Red;
 }
-.block2 {
-    width: 200px;
-    height: 200px;
-    background-color: light blue;
-    position: relative;
-    
-    animation-name: example1;
-    animation-duration: 6s;
-    animation-iteration-count: 8;
-    animation-direction: normal; 
-	animation-delay: 12s;
-	
+#box2 {
+  background-color: Green;
 }
-.block3 {
-    width: 200px;
-    height: 200px;
-    background-color: light blue;
-    position: relative;
-    
-    animation-name: example2;
-    animation-duration: 8s;
-    animation-iteration-count: 2;
-    animation-direction: normal; 
-	animation-delay: 7s;
-	
+#box3 {
+  background-color: Blue;
 }
-.block4 {
-    width: 200px;
-    height: 200px;
-    background-color: light blue;
-    position: relative;
-    
-    animation-name: example3;
-    animation-duration: 12s;
-    animation-iteration-count: 4;
-    animation-direction: normal; 
-	animation-delay: 20s;
-	
+#box4 {
+  background-color: Yellow;
 }
-
-div {animation-timing-function: linear;
-}
-
-
-
-/* Standard syntax */
-@keyframes example {
-
-    0%   {background-color:light blue; left:0px; top:0px;}
-	
-    100%  {background-color:red; left:0px; top:200px;}
-   
-}
-
-@keyframes example1 {
-
-    0%   {background-color:light blue; left:0px; top:0px;}
-	
-    100%  {background-color:green; left:0px; top:200px;}
-   
-}
-@keyframes example2 {
-
-    0%   {background-color:light blue; left:0px; top:0px;}
-	
-    100%  {background-color:blue; left:0px; top:200px;}
-   
-}
-@keyframes example3 {
-
-    0%   {background-color:light blue; left:0px; top:0px;}
-	
-    100%  {background-color:yellow; left:0px; top:200px;}
-   
-}
-
-
-
-
-
-

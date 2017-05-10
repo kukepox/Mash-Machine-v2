@@ -1,0 +1,37 @@
+.icon {
+  max-width: 150px;
+  margin: 0 auto;
+  display: block;
+}
+
+.call {
+  max-width: 250px;
+  display: inline-block;
+  opacity: 0.5;
+  background-color: #669900;
+  position: fixed;
+  display: block;
+  
+}
+
+.header {
+padding-right: 10;
+ color: #ffffff;
+ text-align: left;
+ 
+}
+
+.services section {
+  text-align: center;
+}
+
+.bgimage {
+  background-image: url('../images/building.jpg');
+  background-position: center center;
+  background-size: cover;
+  height: 200px;
+}
+body {
+    background-color: lightblue;
+}
+
