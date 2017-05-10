@@ -1,0 +1,146 @@
+@keyframes my-animation {
+  from {
+    opacity : 0;
+    top : -500px;
+  }
+  to {
+    opacity : 1;
+    top : 0;
+  }
+}
+
+@keyframes my-animation2 {
+  from {
+    opacity : 0;
+    top : -500px;
+  }
+  to {
+    opacity : 1;
+    top : 0;
+  }
+}
+
+.run-animation {
+  position: relative;
+  animation: my-animation 5s infinite;
+
+}
+
+
+.default-box {
+	margin-top: 300px;
+  margin-left:100px;
+  height: 200px;
+  width: 200px;
+  color: white;
+}
+
+#box {
+  background-color: Red;
+}
+#box2 {
+  background-color: Green;
+}
+#box3 {
+  background-color: Blue;
+}
+#box4 {
+  background-color: Yellow;
+  color: black;
+}
+
+/*Rajiv*/
+.button {
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: White;
+  background-color: #E10000;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+
+.button:hover {background-color: Red}
+
+.button:active {
+  background-color: Red;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+
+.button2 {
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: White;
+  background-color: #00E100;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+
+.button2:hover {background-color: Green}
+
+.button2:active {
+  background-color: Green;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+
+.button3 {
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: White;
+  background-color: #0000CD;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+
+.button3:hover {background-color: Blue}
+
+.button3:active {
+  background-color: Blue;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+
+.button4 {
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: Black;
+  background-color: #ffEf00;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+
+.button4:hover {background-color: Yellow}
+
+.button4:active {
+  background-color: Yellow;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
